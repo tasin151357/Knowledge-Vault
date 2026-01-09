@@ -1,9 +1,18 @@
-#button{
-    background-color: rgb(10, 119, 83);
-    color: aliceblue;
-    padding: 10px 30px;
-    border-radius: 5px;
+.btn-large{
+    background-color: seagreen;
+    color: white; 
+    border: none; 
+    padding: 15px 40px; 
+    border-radius: 5px; 
+    font-size: 1.1rem; 
 }
+
+.btn-large:hover{
+    background-color: azure;
+    color: seagreen;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .hero{
     background-image: url("assets/hero-bg.png");
     width: auto;
@@ -16,6 +25,21 @@
     background-size: cover;
     background-position: center;
 }
+
+#access-open{
+    background-color: white;
+    color: seagreen;
+    padding: 5px;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto; 
+    text-align: center;
+}
+#access-open:hover{
+    background: none;
+    color : white;
+    border: 1px solid seagreen;
+}
 #head1{
     color: seagreen;
     font-size: larger;
@@ -27,24 +51,21 @@
     width: 50%;
 }
 
-.btn-large{
-    background-color: seagreen;
-    color: white; 
-    border: none; 
-    padding: 15px 40px; 
-    border-radius: 5px; 
-    font-size: 1.1rem; 
-}
+
 
 .btn-text{
     background: none; 
-    border: none; 
     color: white; 
     margin-left: 20px; 
     padding: 15px 40px; 
     font-size: 1.1rem; 
     border-radius: 5px;
     border: 1px solid whitesmoke;
+}
+
+.btn-text:hover{
+    color: yellow;
+    border: 1px dotted yellowgreen;
 }
 
 .problem-section{
@@ -96,6 +117,7 @@
     padding: 5rem 5%; 
     background: #e6eeea;
     margin: 5% 8%;
+    border-radius: 8px;
 }
 
 .footer-logo { 
