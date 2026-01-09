@@ -48,3 +48,54 @@
     border-radius: 5px;
     border: 1px solid whitesmoke;
 }
+
+.problem-section{
+    padding: 5rem 5%; 
+    text-align: center;  
+}
+
+.problem-section h2{
+    font-size:xx-large
+}
+.grid{
+    display: flex;  
+    gap: 30px; 
+    margin-top: 3rem;
+}
+
+.card{
+    background: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow:  5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card img { 
+    height: 30px; 
+    margin-bottom: 15px; 
+    padding: 9px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.solution-container { 
+    display: flex; 
+    align-items: center; 
+    gap: 50px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.solution-container ul{
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.access-section { 
+    text-align: center; 
+    padding: 5rem 5%; 
+    background: #e6eeea;
+    margin: 5% 8%;
+}
