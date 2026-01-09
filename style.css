@@ -4,8 +4,6 @@
     padding: 10px 30px;
     border-radius: 5px;
 }
-
-/*style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero-bg.jpg');"*/
 .hero{
     background-image: url("assets/hero-bg.png");
     width: auto;
@@ -98,4 +96,13 @@
     padding: 5rem 5%; 
     background: #e6eeea;
     margin: 5% 8%;
+}
+
+.footer-logo { 
+    height: 30px; 
+    margin-bottom: 10px; 
+}
+
+.footer-img img{
+    height: 20px; 
 }
