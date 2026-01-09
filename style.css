@@ -4,3 +4,47 @@
     padding: 10px 30px;
     border-radius: 5px;
 }
+
+/*style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero-bg.jpg');"*/
+.hero{
+    background-image: url("assets/hero-bg.png");
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+#head1{
+    color: seagreen;
+    font-size: larger;
+}
+#head2{
+    font-size: larger;
+}
+.head p{
+    width: 50%;
+}
+
+.btn-large{
+    background-color: seagreen;
+    color: white; 
+    border: none; 
+    padding: 15px 40px; 
+    border-radius: 5px; 
+    font-size: 1.1rem; 
+}
+
+.btn-text{
+    background: none; 
+    border: none; 
+    color: white; 
+    margin-left: 20px; 
+    padding: 15px 40px; 
+    font-size: 1.1rem; 
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
